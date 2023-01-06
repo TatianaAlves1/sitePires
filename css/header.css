@@ -3,35 +3,9 @@ header{
     height: 420px;
     padding-top: 4rem;
     background: url('../img/topo.png');
-    background-size: cover;
+    background-size: cover; 
+    /*position: relative;
+    z-index: 1;*/
   }
 
-  .lista-menu{/*ul*/
-      display:flex; 
-      align-items: center;
-      justify-content: space-around;
-      list-style-type: none;
-  }
-  .item-menu{
-      padding: 10px 15px;
-      text-align: center;
-  }
-  .icone-menu{font-size: 2.8rem; display: none; flex-shrink: 0;}
-  .link-menu{
-      text-decoration: none;
-      font-family: 'Righteous', cursive;
-      font-size: 20px;
-      text-transform: uppercase;
-      font-weight: 400;
-      letter-spacing: 0em;
-      text-align: left;
-      color: #ffffff;
-      margin: 0 3.6rem;
-      text-shadow: 2px 2px 3px #000000;
-  }
   
-  .bts{
-    margin-left: -5px;
-    border-radius: 5px;
-    border: none;
-  }

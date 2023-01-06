@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap');
+/* font-family: 'Mali', cursive; */
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +16,7 @@
 body{
     width: 100%;
     min-height: 100vh;
+    position: relative;
 }
 .bg{
     background: rgb(203,238,251);
@@ -46,8 +48,6 @@ body{
         margin-left: auto;
         margin-right: auto;
       }
-
-
 
       main{
         padding-top: 2rem;
@@ -81,16 +81,25 @@ body{
         background-position: bottom;
       }
 
-      .item-footer{
-        display: flex;
-        flex-direction:column;
-      }
-      .link-footer{
-        text-decoration: none;
-        font-family: 'Montserrat', sans-serif;
-        color: #000000;
-        font-size: 1.4rem;
-        font-weight: 700;
-        line-height: 24px;
-        letter-spacing: -0.015em;
-      }
+      
+/*PÁGINA HISTÓRIAS*/
+.bloco-hist{width: 320px;height:320px; overflow: hidden; background-color:#E5E5E5; padding:2px; margin-bottom: 1rem; color: #636363;}
+.bloco-hist a{text-decoration: none; color:inherit ;}
+.titulo-hist{padding:10px; background-color:#cdcdcd;}
+.ic-ler{width: 50px; height: 50px;position: relative; z-index:5; margin-top:-40px;float:right; margin-right:10px}
+.txt-hist{padding: 10px;}
+.titulo-page{font-family:'Mali',cursive;font-size:5rem;font-weight:500; padding-right:45px;
+display:inline-block ;border-bottom:3px dashed #343434;}
+.desc-page{width:535px; font-family: 'Livvic', sans-serif;font-weight: 400;font-size: 30px;line-height: 42px;}
+.ativar{display: block;}
+.section-hist{margin-top: -150px;}
+
+/*VÍDEOS*/
+.tag-categorias{list-style: none;width:550px;height:auto; background-color: white; border-radius: 15px; padding: 5px; display: flex; flex-wrap: wrap;}
+.tag-categorias li{margin: 15px 15px;}
+.tag-categorias li a{background-color: #93BD30; text-decoration:none; color: white; font-size: 1.2rem; padding: 10px; border-radius: 25px;}
+.titulo-video{font-family: 'Mali', cursive;font-size: 55px;font-weight: 500;line-height: 87px;letter-spacing: -0.015em; text-align: left;}
+.desc-video{width: 480px;font-family: 'Livvic', sans-serif;font-size: 30px;font-weight: 400;line-height: 42px;padding: 15px; }
+
+/*CONTATO*/
+.titulo-parceiros{font-family: 'Mali', cursive;font-size:32px;font-weight: 500;display:inline-block;padding-right:45px ;border-bottom:3px dashed #343434;}

@@ -1,6 +1,6 @@
 @media screen and (max-width:768px) {
     header{
-      min-height: 120px;
+      min-height: auto;
     }
     .lista-menu{
         flex-direction: column;
@@ -12,7 +12,7 @@
     }
    .teste{display:flex; align-items:center;width:100%;justify-content:space-between;}
    .icone-menu{font-size: 2.8rem; display: block;}
-   .menu{display:flex;}
+   .menu{display:flex;position: relative; z-index: 5;}
    .item-menu:hover{background-color: rgba(0, 0, 0, 0.171);}    
    .swiper-button-next, .swiper-button-prev{display: none;}   
    .swiper {width: 100%;}
@@ -22,5 +22,13 @@
    footer{padding: 0.5rem !important;}
    footer ul{flex-wrap: wrap;padding:0; justify-content:space-around; align-items: center; }
    .link-footer{text-align: center; }
-   }
    .active{display: block;}
+   main{padding-top: 0rem; margin-top: -150px;}
+   footer{flex-wrap: wrap; flex-direction: column;}
+   .lista-footer{display:flex;flex-direction:row;}
+   .grid-galeria{ margin-top: 2rem;display:grid; grid-template-columns:auto; justify-content: center;
+    row-gap:5px; align-items: center;}
+    .grid-galeria img{ width: 100%;}
+  }
+
+   
